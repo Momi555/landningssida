@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+  }
+  main {
+    background-image: url(image/bg.webp);
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 10px;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    color: rgb(22, 21, 21);
+    top: 0px;
+    font-size: 200%;
+    position: sticky;
+  }
+  nav a {
+    margin: 10px;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+  }
+  h2 {
+    font-size: 80%;
+  }
+  button {
+    background-color: lightblue;
+    border-radius: 5px;
+    font-size: 70%;
+  }
+  button1 {
+    background-color: lightblue;
+    color: black;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    font-size: 150%;
+  }
+  .page {
+    background-color: rgba(211, 211, 211, 0.317);
+    height: 600px;
+    margin: 50px auto;
+  }
+  .space {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .text-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 10px;
+  }
+  .image2 {
+    margin-top: 30px;
+    margin-left: 60px;
+    float: left;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+  }
+  #h2 {
+    font-size: 42px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  #p {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    background-color: rgba(211, 211, 211, 0.037);
+  }
+  .box {
+    height: 300px;
+    width: 300px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .cent {
+    background-color: rgba(211, 211, 211, 0.037);
+    text-align: center;
+    font-size: 4em;
+    padding: 10px;
+  }
+  #box1 {
+    background-color: rgb(173, 216, 230, 0.938);
+  }
+  #box2 {
+    background-color: rgba(173, 216, 230, 0.938);
+  }
+  #box3 {
+    background-color: rgba(173, 216, 230, 0.938);
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, 0.12);
+    height: 500px;
+  }
+  .ansök {
+    font-size: 4em;
+  }
+  .para {
+    font-size: 130%;
+  }
+  button2 {
+    font-size: 350%;
+    margin: 20px;
+    background-color: rgba(245, 241, 241, 0.839);
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-align: center;
+  }
+  button2:hover {
+    background-color: lightblue;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: rgb(48, 216, 186);
+  }
+  .information {
+    color: white;
+  }
